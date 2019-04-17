@@ -16,6 +16,7 @@
 #define Image   UIImage
 #endif
 
+/// WebP解析类
 @interface WebPDataDecoder : NSObject
 
 - (nullable Image *)incrementallyDecodeData:(nonnull NSData *)data isFinal:(BOOL)isFinal;
