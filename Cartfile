@@ -1,3 +1,2 @@
-github "kean/Nuke"
 git "https://github.com/webmproject/libwebp.git" "v1.0.0"
 
