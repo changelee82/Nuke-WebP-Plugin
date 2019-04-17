@@ -32,7 +32,6 @@
 		F80D73D4209FD9B10015EA10 /* quant_levels_dec_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA741200EF7DC00DD0BED /* quant_levels_dec_utils.c */; };
 		F80D73D5209FD9B10015EA10 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA748200EF7DC00DD0BED /* utils.c */; };
 		F80D73D6209FD9B10015EA10 /* quant_levels_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA744200EF7DC00DD0BED /* quant_levels_utils.c */; };
-		F80D73D7209FD9B10015EA10 /* WebPImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8146582200EE4D700364146 /* WebPImage.swift */; };
 		F80D73D8209FD9B10015EA10 /* filters_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA6B2200EF75000DD0BED /* filters_mips_dsp_r2.c */; };
 		F80D73D9209FD9B10015EA10 /* config_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA6FA200EF7A000DD0BED /* config_enc.c */; };
 		F80D73DA209FD9B10015EA10 /* muxedit.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA736200EF7C400DD0BED /* muxedit.c */; };
@@ -56,7 +55,6 @@
 		F80D73ED209FD9B10015EA10 /* yuv.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA681200EF74B00DD0BED /* yuv.c */; };
 		F80D73EE209FD9B10015EA10 /* frame_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA703200EF7A100DD0BED /* frame_enc.c */; };
 		F80D73EF209FD9B10015EA10 /* enc_msa.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA6B0200EF74F00DD0BED /* enc_msa.c */; };
-		F80D73F0209FD9B10015EA10 /* Data+WebPFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AD60DF209719A000D056B2 /* Data+WebPFormat.swift */; };
 		F80D73F1209FD9B10015EA10 /* picture_tools_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA6FD200EF7A000DD0BED /* picture_tools_enc.c */; };
 		F80D73F2209FD9B10015EA10 /* color_cache_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA74F200EF7DC00DD0BED /* color_cache_utils.c */; };
 		F80D73F3209FD9B10015EA10 /* cost_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA68F200EF74C00DD0BED /* cost_sse2.c */; };
@@ -178,7 +176,6 @@
 		F8138E93209FE0530073DCF5 /* Nuke.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F80D7477209FDBE60015EA10 /* Nuke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F8138E94209FE07E0073DCF5 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80D7477209FDBE60015EA10 /* Nuke.framework */; };
 		F814657E200EE40500364146 /* Nuke_WebP_Plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = F814657C200EE40500364146 /* Nuke_WebP_Plugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8146583200EE4D700364146 /* WebPImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8146582200EE4D700364146 /* WebPImage.swift */; };
 		F8620F722099394000DFCC84 /* NukeWebPPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E345472099337A002A0D95 /* NukeWebPPlugin.framework */; };
 		F8620F7920993BC900DFCC84 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8620F7720993B9C00DFCC84 /* Nuke.framework */; };
 		F8620F7A20993BDE00DFCC84 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8620F7720993B9C00DFCC84 /* Nuke.framework */; };
@@ -206,7 +203,6 @@
 		F8A0AED1209FE4AE008A06AD /* quant_levels_dec_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA741200EF7DC00DD0BED /* quant_levels_dec_utils.c */; };
 		F8A0AED2209FE4AE008A06AD /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA748200EF7DC00DD0BED /* utils.c */; };
 		F8A0AED3209FE4AE008A06AD /* quant_levels_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA744200EF7DC00DD0BED /* quant_levels_utils.c */; };
-		F8A0AED4209FE4AE008A06AD /* WebPImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8146582200EE4D700364146 /* WebPImage.swift */; };
 		F8A0AED5209FE4AE008A06AD /* filters_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA6B2200EF75000DD0BED /* filters_mips_dsp_r2.c */; };
 		F8A0AED6209FE4AE008A06AD /* config_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA6FA200EF7A000DD0BED /* config_enc.c */; };
 		F8A0AED7209FE4AE008A06AD /* muxedit.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA736200EF7C400DD0BED /* muxedit.c */; };
@@ -230,7 +226,6 @@
 		F8A0AEEA209FE4AE008A06AD /* yuv.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA681200EF74B00DD0BED /* yuv.c */; };
 		F8A0AEEB209FE4AE008A06AD /* frame_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA703200EF7A100DD0BED /* frame_enc.c */; };
 		F8A0AEEC209FE4AE008A06AD /* enc_msa.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA6B0200EF74F00DD0BED /* enc_msa.c */; };
-		F8A0AEED209FE4AE008A06AD /* Data+WebPFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AD60DF209719A000D056B2 /* Data+WebPFormat.swift */; };
 		F8A0AEEE209FE4AE008A06AD /* picture_tools_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA6FD200EF7A000DD0BED /* picture_tools_enc.c */; };
 		F8A0AEEF209FE4AE008A06AD /* color_cache_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA74F200EF7DC00DD0BED /* color_cache_utils.c */; };
 		F8A0AEF0209FE4AE008A06AD /* cost_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA68F200EF74C00DD0BED /* cost_sse2.c */; };
@@ -362,7 +357,6 @@
 		F8AD60D9209712DE00D056B2 /* backward_references_cost_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = F8AD60D8209712DE00D056B2 /* backward_references_cost_enc.c */; };
 		F8AD60DC209716AB00D056B2 /* WebPDataDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F8AD60DA209716AB00D056B2 /* WebPDataDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8AD60DD209716AB00D056B2 /* WebPDataDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AD60DB209716AB00D056B2 /* WebPDataDecoder.m */; };
-		F8AD60E0209719A000D056B2 /* Data+WebPFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AD60DF209719A000D056B2 /* Data+WebPFormat.swift */; };
 		F8BAAEC9200EDE100001110D /* NukeWebPPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BAAEBF200EDE100001110D /* NukeWebPPlugin.framework */; };
 		F8CFDAE420A12A2A00C87102 /* DataExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CFDAE320A12A2A00C87102 /* DataExtensionsTests.swift */; };
 		F8CFDAE520A12A2A00C87102 /* DataExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CFDAE320A12A2A00C87102 /* DataExtensionsTests.swift */; };
@@ -393,7 +387,6 @@
 		F8E344B12099337A002A0D95 /* quant_levels_dec_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA741200EF7DC00DD0BED /* quant_levels_dec_utils.c */; };
 		F8E344B22099337A002A0D95 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA748200EF7DC00DD0BED /* utils.c */; };
 		F8E344B32099337A002A0D95 /* quant_levels_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA744200EF7DC00DD0BED /* quant_levels_utils.c */; };
-		F8E344B42099337A002A0D95 /* WebPImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8146582200EE4D700364146 /* WebPImage.swift */; };
 		F8E344B52099337A002A0D95 /* filters_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA6B2200EF75000DD0BED /* filters_mips_dsp_r2.c */; };
 		F8E344B62099337A002A0D95 /* config_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA6FA200EF7A000DD0BED /* config_enc.c */; };
 		F8E344B72099337A002A0D95 /* muxedit.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA736200EF7C400DD0BED /* muxedit.c */; };
@@ -417,7 +410,6 @@
 		F8E344CA2099337A002A0D95 /* yuv.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA681200EF74B00DD0BED /* yuv.c */; };
 		F8E344CB2099337A002A0D95 /* frame_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA703200EF7A100DD0BED /* frame_enc.c */; };
 		F8E344CC2099337A002A0D95 /* enc_msa.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA6B0200EF74F00DD0BED /* enc_msa.c */; };
-		F8E344CD2099337A002A0D95 /* Data+WebPFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AD60DF209719A000D056B2 /* Data+WebPFormat.swift */; };
 		F8E344CE2099337A002A0D95 /* picture_tools_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA6FD200EF7A000DD0BED /* picture_tools_enc.c */; };
 		F8E344CF2099337A002A0D95 /* color_cache_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA74F200EF7DC00DD0BED /* color_cache_utils.c */; };
 		F8E344D02099337A002A0D95 /* cost_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA68F200EF74C00DD0BED /* cost_sse2.c */; };
@@ -755,7 +747,6 @@
 		F8146577200EE3C700364146 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F814657C200EE40500364146 /* Nuke_WebP_Plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nuke_WebP_Plugin.h; sourceTree = "<group>"; };
 		F814657D200EE40500364146 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8146582200EE4D700364146 /* WebPImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPImage.swift; sourceTree = "<group>"; };
 		F8620F7720993B9C00DFCC84 /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/Mac/Nuke.framework; sourceTree = "<group>"; };
 		F8766311200F0E48004A8A23 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		F8A0AF6C209FE4AE008A06AD /* NukeWebPPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NukeWebPPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -769,7 +760,6 @@
 		F8AD60D8209712DE00D056B2 /* backward_references_cost_enc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = backward_references_cost_enc.c; path = Carthage/Checkouts/libwebp/src/enc/backward_references_cost_enc.c; sourceTree = "<group>"; };
 		F8AD60DA209716AB00D056B2 /* WebPDataDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebPDataDecoder.h; sourceTree = "<group>"; };
 		F8AD60DB209716AB00D056B2 /* WebPDataDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebPDataDecoder.m; sourceTree = "<group>"; };
-		F8AD60DF209719A000D056B2 /* Data+WebPFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+WebPFormat.swift"; sourceTree = "<group>"; };
 		F8BAAEBF200EDE100001110D /* NukeWebPPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NukeWebPPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BAAEC8200EDE100001110D /* NukeWebPPlugin Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NukeWebPPlugin Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CFDAE320A12A2A00C87102 /* DataExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtensionsTests.swift; sourceTree = "<group>"; };
@@ -1034,19 +1024,9 @@
 		F8146581200EE42B00364146 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F8AD60DE2097198B00D056B2 /* Extensions */,
 				F8FAA783200EF84600DD0BED /* WebP */,
-				F8146582200EE4D700364146 /* WebPImage.swift */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		F8AD60DE2097198B00D056B2 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				F8AD60DF209719A000D056B2 /* Data+WebPFormat.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F8BAAEB5200EDE100001110D = {
@@ -1955,7 +1935,6 @@
 				F80D73D4209FD9B10015EA10 /* quant_levels_dec_utils.c in Sources */,
 				F80D73D5209FD9B10015EA10 /* utils.c in Sources */,
 				F80D73D6209FD9B10015EA10 /* quant_levels_utils.c in Sources */,
-				F80D73D7209FD9B10015EA10 /* WebPImage.swift in Sources */,
 				F80D73D8209FD9B10015EA10 /* filters_mips_dsp_r2.c in Sources */,
 				F80D73D9209FD9B10015EA10 /* config_enc.c in Sources */,
 				F80D73DA209FD9B10015EA10 /* muxedit.c in Sources */,
@@ -1980,7 +1959,6 @@
 				F80D73EE209FD9B10015EA10 /* frame_enc.c in Sources */,
 				F80D73EF209FD9B10015EA10 /* enc_msa.c in Sources */,
 				F8AAB37A215088A100E1744B /* yuv_sse41.c in Sources */,
-				F80D73F0209FD9B10015EA10 /* Data+WebPFormat.swift in Sources */,
 				F80D73F1209FD9B10015EA10 /* picture_tools_enc.c in Sources */,
 				F80D73F2209FD9B10015EA10 /* color_cache_utils.c in Sources */,
 				F80D73F3209FD9B10015EA10 /* cost_sse2.c in Sources */,
@@ -2090,7 +2068,6 @@
 				F8A0AED1209FE4AE008A06AD /* quant_levels_dec_utils.c in Sources */,
 				F8A0AED2209FE4AE008A06AD /* utils.c in Sources */,
 				F8A0AED3209FE4AE008A06AD /* quant_levels_utils.c in Sources */,
-				F8A0AED4209FE4AE008A06AD /* WebPImage.swift in Sources */,
 				F8A0AED5209FE4AE008A06AD /* filters_mips_dsp_r2.c in Sources */,
 				F8A0AED6209FE4AE008A06AD /* config_enc.c in Sources */,
 				F8A0AED7209FE4AE008A06AD /* muxedit.c in Sources */,
@@ -2115,7 +2092,6 @@
 				F8A0AEEB209FE4AE008A06AD /* frame_enc.c in Sources */,
 				F8A0AEEC209FE4AE008A06AD /* enc_msa.c in Sources */,
 				F8AAB37B215088A100E1744B /* yuv_sse41.c in Sources */,
-				F8A0AEED209FE4AE008A06AD /* Data+WebPFormat.swift in Sources */,
 				F8A0AEEE209FE4AE008A06AD /* picture_tools_enc.c in Sources */,
 				F8A0AEEF209FE4AE008A06AD /* color_cache_utils.c in Sources */,
 				F8A0AEF0209FE4AE008A06AD /* cost_sse2.c in Sources */,
@@ -2214,7 +2190,6 @@
 				F8FAA75B200EF7DD00DD0BED /* quant_levels_dec_utils.c in Sources */,
 				F8FAA762200EF7DD00DD0BED /* utils.c in Sources */,
 				F8FAA75E200EF7DD00DD0BED /* quant_levels_utils.c in Sources */,
-				F8146583200EE4D700364146 /* WebPImage.swift in Sources */,
 				F8FAA6F7200EF75000DD0BED /* filters_mips_dsp_r2.c in Sources */,
 				F8FAA718200EF7A200DD0BED /* config_enc.c in Sources */,
 				F8FAA73C200EF7C500DD0BED /* muxedit.c in Sources */,
@@ -2239,7 +2214,6 @@
 				F8FAA721200EF7A200DD0BED /* frame_enc.c in Sources */,
 				F8FAA6F5200EF75000DD0BED /* enc_msa.c in Sources */,
 				F8AAB378215088A100E1744B /* yuv_sse41.c in Sources */,
-				F8AD60E0209719A000D056B2 /* Data+WebPFormat.swift in Sources */,
 				F8FAA71B200EF7A200DD0BED /* picture_tools_enc.c in Sources */,
 				F8FAA769200EF7DD00DD0BED /* color_cache_utils.c in Sources */,
 				F8FAA6D4200EF75000DD0BED /* cost_sse2.c in Sources */,
@@ -2349,7 +2323,6 @@
 				F8E344B12099337A002A0D95 /* quant_levels_dec_utils.c in Sources */,
 				F8E344B22099337A002A0D95 /* utils.c in Sources */,
 				F8E344B32099337A002A0D95 /* quant_levels_utils.c in Sources */,
-				F8E344B42099337A002A0D95 /* WebPImage.swift in Sources */,
 				F8E344B52099337A002A0D95 /* filters_mips_dsp_r2.c in Sources */,
 				F8E344B62099337A002A0D95 /* config_enc.c in Sources */,
 				F8E344B72099337A002A0D95 /* muxedit.c in Sources */,
@@ -2374,7 +2347,6 @@
 				F8E344CB2099337A002A0D95 /* frame_enc.c in Sources */,
 				F8E344CC2099337A002A0D95 /* enc_msa.c in Sources */,
 				F8AAB379215088A100E1744B /* yuv_sse41.c in Sources */,
-				F8E344CD2099337A002A0D95 /* Data+WebPFormat.swift in Sources */,
 				F8E344CE2099337A002A0D95 /* picture_tools_enc.c in Sources */,
 				F8E344CF2099337A002A0D95 /* color_cache_utils.c in Sources */,
 				F8E344D02099337A002A0D95 /* cost_sse2.c in Sources */,
@@ -2538,7 +2510,6 @@
 		F80D748A209FDD810015EA10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -2563,7 +2534,6 @@
 		F80D748B209FDD810015EA10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -2785,6 +2755,7 @@
 				HEADER_SEARCH_PATHS = "Carthage/Checkouts/libwebp/**";
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(SRCROOT)/Supporting Files/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ryokosuge.Nuke-WebP-Plugin";
@@ -2813,6 +2784,7 @@
 				HEADER_SEARCH_PATHS = "Carthage/Checkouts/libwebp/**";
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(SRCROOT)/Supporting Files/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ryokosuge.Nuke-WebP-Plugin";
@@ -2826,7 +2798,6 @@
 		F8BAAED7200EDE100001110D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -2848,7 +2819,6 @@
 		F8BAAED8200EDE100001110D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -2925,7 +2895,6 @@
 		F8E3455A20993551002A0D95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -2949,7 +2918,6 @@
 		F8E3455B20993551002A0D95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
