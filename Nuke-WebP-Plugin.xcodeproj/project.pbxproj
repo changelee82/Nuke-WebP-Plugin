@@ -167,19 +167,13 @@
 		F80D7462209FD9B10015EA10 /* quant_levels_dec_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FAA747200EF7DC00DD0BED /* quant_levels_dec_utils.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F80D7463209FD9B10015EA10 /* WebPImageMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FAA784200EF85800DD0BED /* WebPImageMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F80D7464209FD9B10015EA10 /* Nuke_WebP_Plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = F814657C200EE40500364146 /* Nuke_WebP_Plugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F80D7479209FDBF20015EA10 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80D7477209FDBE60015EA10 /* Nuke.framework */; };
 		F80D747E209FDD810015EA10 /* LoadWebPImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A458020197DB600825C6D /* LoadWebPImageTests.swift */; };
 		F80D7483209FDD810015EA10 /* NukeWebPPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E345472099337A002A0D95 /* NukeWebPPlugin.framework */; };
 		F80D7486209FDD810015EA10 /* sample.gif in Resources */ = {isa = PBXBuildFile; fileRef = C74750E12030E2FC00FA7FE2 /* sample.gif */; };
 		F80D7487209FDD810015EA10 /* sample.webp in Resources */ = {isa = PBXBuildFile; fileRef = F8FAA4D3200EF08400DD0BED /* sample.webp */; };
 		F80D7490209FDF170015EA10 /* WebPDecodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A457E20197CE200825C6D /* WebPDecodeTests.swift */; };
-		F8138E93209FE0530073DCF5 /* Nuke.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F80D7477209FDBE60015EA10 /* Nuke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F8138E94209FE07E0073DCF5 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80D7477209FDBE60015EA10 /* Nuke.framework */; };
 		F814657E200EE40500364146 /* Nuke_WebP_Plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = F814657C200EE40500364146 /* Nuke_WebP_Plugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8620F722099394000DFCC84 /* NukeWebPPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E345472099337A002A0D95 /* NukeWebPPlugin.framework */; };
-		F8620F7920993BC900DFCC84 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8620F7720993B9C00DFCC84 /* Nuke.framework */; };
-		F8620F7A20993BDE00DFCC84 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8620F7720993B9C00DFCC84 /* Nuke.framework */; };
-		F8620F7C20993CEF00DFCC84 /* Nuke.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F8620F7720993B9C00DFCC84 /* Nuke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F8A0AEBD209FE4AE008A06AD /* rescaler.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA69A200EF74D00DD0BED /* rescaler.c */; };
 		F8A0AEBE209FE4AE008A06AD /* ssim.c in Sources */ = {isa = PBXBuildFile; fileRef = F8AD60D3209712C300D056B2 /* ssim.c */; };
 		F8A0AEBF209FE4AE008A06AD /* frame_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA63D200EF6D900DD0BED /* frame_dec.c */; };
@@ -338,7 +332,6 @@
 		F8A0AF5F209FE4AE008A06AD /* quant_levels_dec_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FAA747200EF7DC00DD0BED /* quant_levels_dec_utils.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F8A0AF60209FE4AE008A06AD /* WebPImageMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FAA784200EF85800DD0BED /* WebPImageMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8A0AF61209FE4AE008A06AD /* Nuke_WebP_Plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = F814657C200EE40500364146 /* Nuke_WebP_Plugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8A0AF6F209FE4D7008A06AD /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A0AF6E209FE4D7008A06AD /* Nuke.framework */; };
 		F8AAB378215088A100E1744B /* yuv_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = F8AAB375215088A100E1744B /* yuv_sse41.c */; };
 		F8AAB379215088A100E1744B /* yuv_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = F8AAB375215088A100E1744B /* yuv_sse41.c */; };
 		F8AAB37A215088A100E1744B /* yuv_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = F8AAB375215088A100E1744B /* yuv_sse41.c */; };
@@ -528,8 +521,6 @@
 		F8E345612099371C002A0D95 /* WebPDecodeTests_MacOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E345602099371C002A0D95 /* WebPDecodeTests_MacOS.swift */; };
 		F8E345622099376B002A0D95 /* WebPDecodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A457E20197CE200825C6D /* WebPDecodeTests.swift */; };
 		F8FAA4D4200EF08400DD0BED /* sample.webp in Resources */ = {isa = PBXBuildFile; fileRef = F8FAA4D3200EF08400DD0BED /* sample.webp */; };
-		F8FAA4D7200EF1FD00DD0BED /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FAA4D6200EF1FD00DD0BED /* Nuke.framework */; };
-		F8FAA4D9200EF2FA00DD0BED /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FAA4D6200EF1FD00DD0BED /* Nuke.framework */; };
 		F8FAA652200EF70E00DD0BED /* demux.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA649200EF6ED00DD0BED /* demux.c */; };
 		F8FAA653200EF71200DD0BED /* anim_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA648200EF6ED00DD0BED /* anim_decode.c */; };
 		F8FAA65E200EF71900DD0BED /* alpha_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA62E200EF6D800DD0BED /* alpha_dec.c */; };
@@ -714,7 +705,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F8138E93209FE0530073DCF5 /* Nuke.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -725,7 +715,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F8620F7C20993CEF00DFCC84 /* Nuke.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -742,15 +731,12 @@
 		F80D746F209FDB560015EA10 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		F80D7470209FDB570015EA10 /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
 		F80D7471209FDB570015EA10 /* Nuke-WebP-Plugin.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Nuke-WebP-Plugin.podspec"; sourceTree = "<group>"; };
-		F80D7477209FDBE60015EA10 /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/tvOS/Nuke.framework; sourceTree = "<group>"; };
 		F80D748C209FDD810015EA10 /* Nuke-WebP-PluginTests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nuke-WebP-PluginTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8146577200EE3C700364146 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F814657C200EE40500364146 /* Nuke_WebP_Plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nuke_WebP_Plugin.h; sourceTree = "<group>"; };
 		F814657D200EE40500364146 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8620F7720993B9C00DFCC84 /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/Mac/Nuke.framework; sourceTree = "<group>"; };
 		F8766311200F0E48004A8A23 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		F8A0AF6C209FE4AE008A06AD /* NukeWebPPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NukeWebPPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8A0AF6E209FE4D7008A06AD /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/watchOS/Nuke.framework; sourceTree = "<group>"; };
 		F8AAB375215088A100E1744B /* yuv_sse41.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = yuv_sse41.c; path = Carthage/Checkouts/libwebp/src/dsp/yuv_sse41.c; sourceTree = "<group>"; };
 		F8AAB376215088A100E1744B /* common_sse41.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common_sse41.h; path = Carthage/Checkouts/libwebp/src/dsp/common_sse41.h; sourceTree = "<group>"; };
 		F8AAB377215088A100E1744B /* upsampling_sse41.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = upsampling_sse41.c; path = Carthage/Checkouts/libwebp/src/dsp/upsampling_sse41.c; sourceTree = "<group>"; };
@@ -768,7 +754,6 @@
 		F8E3455C20993551002A0D95 /* NukeWebPPlugin Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NukeWebPPlugin Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E345602099371C002A0D95 /* WebPDecodeTests_MacOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPDecodeTests_MacOS.swift; sourceTree = "<group>"; };
 		F8FAA4D3200EF08400DD0BED /* sample.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.webp; sourceTree = "<group>"; };
-		F8FAA4D6200EF1FD00DD0BED /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/iOS/Nuke.framework; sourceTree = "<group>"; };
 		F8FAA62E200EF6D800DD0BED /* alpha_dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = alpha_dec.c; path = Carthage/Checkouts/libwebp/src/dec/alpha_dec.c; sourceTree = "<group>"; };
 		F8FAA62F200EF6D800DD0BED /* webp_dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = webp_dec.c; path = Carthage/Checkouts/libwebp/src/dec/webp_dec.c; sourceTree = "<group>"; };
 		F8FAA630200EF6D900DD0BED /* idec_dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = idec_dec.c; path = Carthage/Checkouts/libwebp/src/dec/idec_dec.c; sourceTree = "<group>"; };
@@ -927,7 +912,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F80D7479209FDBF20015EA10 /* Nuke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -936,7 +920,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F80D7483209FDD810015EA10 /* NukeWebPPlugin.framework in Frameworks */,
-				F8138E94209FE07E0073DCF5 /* Nuke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -944,7 +927,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A0AF6F209FE4D7008A06AD /* Nuke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -952,7 +934,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8FAA4D7200EF1FD00DD0BED /* Nuke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -961,7 +942,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8BAAEC9200EDE100001110D /* NukeWebPPlugin.framework in Frameworks */,
-				F8FAA4D9200EF2FA00DD0BED /* Nuke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -969,7 +949,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8620F7920993BC900DFCC84 /* Nuke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -978,7 +957,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8620F722099394000DFCC84 /* NukeWebPPlugin.framework in Frameworks */,
-				F8620F7A20993BDE00DFCC84 /* Nuke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1068,10 +1046,6 @@
 		F8FAA4D5200EF1FD00DD0BED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F8A0AF6E209FE4D7008A06AD /* Nuke.framework */,
-				F80D7477209FDBE60015EA10 /* Nuke.framework */,
-				F8620F7720993B9C00DFCC84 /* Nuke.framework */,
-				F8FAA4D6200EF1FD00DD0BED /* Nuke.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1878,7 +1852,6 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Nuke.framework",
 			);
 			name = "[Carthage] copy-framework";
 			outputPaths = (
